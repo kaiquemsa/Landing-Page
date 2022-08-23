@@ -11,10 +11,18 @@ const globalStyle = createGlobalStyle`
         height: 100%;
     }
 
+    body {
+        background-color: #F8FDFF;
+        font-family: 'Poppins', sans-serif;
+    }
+
     button {
-        background-color: none;
+        background-color: transparent;
+        font-family: 'Poppins', sans-serif;
         border: none;
         outline: none;
+        color: #17a4d0;
+        cursor: pointer;
     }
 
     a {
