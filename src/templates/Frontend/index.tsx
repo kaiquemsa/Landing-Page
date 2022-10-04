@@ -9,6 +9,8 @@ const Frontend = ({ children }: FrontendProps) => {
   return (
     <K.Container>
       <Header></Header>
+
+      <main>{children}</main>
     </K.Container>
   );
 };
