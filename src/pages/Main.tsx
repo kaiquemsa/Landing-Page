@@ -2,6 +2,8 @@ import Frontend from "../templates/Frontend";
 import ButtonContact from "../atoms/ButtonContact";
 import * as K from "./styles";
 
+import HeaderImage from "../assets/header-image.png";
+
 function Main() {
   return (
     <Frontend>
@@ -14,8 +16,9 @@ function Main() {
           </h6>
           <ButtonContact />
         </div>
-
-        <div>Coluna 2</div>
+        <K.ColumnImage>
+          <img src={HeaderImage} alt="Woman make searching"/>
+        </K.ColumnImage>
       </K.Container>
     </Frontend>
   );
