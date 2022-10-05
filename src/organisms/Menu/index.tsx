@@ -2,7 +2,7 @@ import * as K from "./styles";
 
 import { useNavigate } from "react-router-dom";
 
-const Home: React.FC = () => {
+const Menu: React.FC = () => {
   const navigation = useNavigate();
 
   return (
@@ -26,4 +26,4 @@ const Home: React.FC = () => {
   );
 };
 
-export { Home };
+export { Menu };
