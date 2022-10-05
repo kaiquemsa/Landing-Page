@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Main from "./pages/Main";
 import { Router } from "./routes";
 import GlobalStyle from "./styles/global";
 
@@ -10,6 +9,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <GlobalStyle />
-    <Main />
+    <Router />
   </React.StrictMode>
 );
