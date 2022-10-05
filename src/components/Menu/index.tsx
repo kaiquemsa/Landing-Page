@@ -8,7 +8,7 @@ const Menu: React.FC = () => {
   return (
     <K.MenuList>
       <K.ItemList>
-        <a onClick={() => navigation("/home")}>Início</a>
+        <a onClick={() => navigation("/")}>Início</a>
       </K.ItemList>
       <K.ItemList>
         <a onClick={() => navigation("/solucoes")}>Soluções</a>
