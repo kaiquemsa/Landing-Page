@@ -9,15 +9,15 @@ function Main() {
     <Frontend>
       <K.Container>
         <div>
-          <h1>Design driven development of your web product</h1>
+          <h1>Olá! Bem-vindo a SamEdu.</h1>
           <h6>
-            We are a full service digital agency that builds imensive user
-            experience.
+            Somos uma startup jovem e nos propomos a democratizar a educação no
+            Brasil através da robótica
           </h6>
           <ButtonContact />
         </div>
         <K.ColumnImage>
-          <img src={HeaderImage} alt="Woman make searching"/>
+          <img src={HeaderImage} alt="Woman make searching" />
         </K.ColumnImage>
       </K.Container>
     </Frontend>

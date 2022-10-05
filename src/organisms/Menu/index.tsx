@@ -4,19 +4,19 @@ const Menu = () => {
   return (
     <K.MenuList>
       <K.ItemList>
-        <a href="#">Home</a>
+        <a href="#">Início</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">About Us</a>
+        <a href="#">Soluções</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">How it Works</a>
+        <a href="#">Inclusão</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">Services</a>
+        <a href="#">Sobre nós</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">Contact</a>
+        <a href="#">Contato</a>
       </K.ItemList>
     </K.MenuList>
   );

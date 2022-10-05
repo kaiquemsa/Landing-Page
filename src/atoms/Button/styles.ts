@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-    width: 130px;
-    height: 42px;
-    border: 1px solid #17a4d0;
-    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #D32034;
+    color: #D32034;
+    font-size: 16px;
     margin-left: 25px;
     border-radius: 5px;
     transition: all 0.25s ease-out;
@@ -34,9 +35,9 @@ export const Container = styled.button`
     background: hsl(200 100% 80%);
     z-index: -1;
     transition: transform .3s ease;
-    width: 130px;
-    height: 42px;
+    width: 148px;
+    height: 48px;
     border-radius: 4px;
-    background-color: #17A4D0;
+    background-color: #D32034;
     }
 `;

@@ -3,13 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
-    
     > div {
         width: 50%;
     }
 
     h1 {
-        color: #1e255e;
+        color: #D32034;
         font-size: 56px;
         font-weight: bold;
     }
