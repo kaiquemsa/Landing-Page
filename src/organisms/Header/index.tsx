@@ -1,14 +1,14 @@
 import * as K from "./styles";
 
 import Logo from "../../molecules/Logo";
-import Menu from "../Menu";
+import { Home } from "../Menu";
 import Button from "../../atoms/Button";
 
 const Header = () => {
   return (
     <K.Box>
       <Logo />
-      <Menu />
+      <Home />
       <Button />
     </K.Box>
   );

@@ -1,25 +1,29 @@
 import * as K from "./styles";
 
-const Menu = () => {
+import { useNavigate } from "react-router-dom";
+
+const Home: React.FC = () => {
+  const navigation = useNavigate();
+
   return (
     <K.MenuList>
       <K.ItemList>
-        <a href="#">Início</a>
+        <a onClick={() => navigation("/home")}>Início</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">Soluções</a>
+        <a onClick={() => navigation("/solucoes")}>Soluções</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">Inclusão</a>
+        <a onClick={() => navigation("/inclusao")}>Inclusão</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">Sobre nós</a>
+        <a onClick={() => navigation("/sobrenos")}>Sobre nós</a>
       </K.ItemList>
       <K.ItemList>
-        <a href="#">Contato</a>
+        <a onClick={() => navigation("/contato")}>Contato</a>
       </K.ItemList>
     </K.MenuList>
   );
 };
 
-export default Menu;
+export { Home };
