@@ -8,12 +8,15 @@ const globalStyle = createGlobalStyle`
     }
 
     html, body, #root {
-        height: 100%;
+        height: 100%;        
+        position: relative;
+        padding-bottom: 100px;
     }
 
     body {
         background-color: #f2f4f3;
         font-family: 'Poppins', sans-serif;
+
     }
 
     button {

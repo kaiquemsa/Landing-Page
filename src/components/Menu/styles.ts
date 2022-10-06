@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-type TechType = {
-    tech: string;
-  };
-
 export const MenuList = styled.ul`
     margin-left:auto;
     padding-left: 8px;
