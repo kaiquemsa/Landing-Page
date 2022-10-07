@@ -22,6 +22,7 @@ export const ItemList = styled.li`
     &:hover {
         a {
             color: #D32034;
+            cursor: pointer;
         }
     }
 

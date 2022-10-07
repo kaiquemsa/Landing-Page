@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { BoxInter, BoxNew, Container, ContainerImage } from "./styles";
@@ -6,17 +6,30 @@ import { BoxInter, BoxNew, Container, ContainerImage } from "./styles";
 import Sobrenos from "../../assets/Sobrenos.png";
 
 const Sobre: React.FC = () => {
+  const [activyColor, setActivyColor] = useState(false);
+
+  useEffect(function () {
+    function posicionScroll() {
+      if (window.scrollY > 10) {
+        setActivyColor(true);
+      } else {
+        setActivyColor(false);
+      }
+    }
+    window.addEventListener("scroll", posicionScroll);
+  }, []);
+
   return (
     <>
-      <Header action={false} />
+      <Header action={activyColor} />
       <Container>
         <BoxNew>
           <ContainerImage>
             <img
               src={Sobrenos}
               style={{
-                width: 700,
-                height: 500,
+                width: 600,
+                height: 400,
                 margin: "20px",
                 borderRadius: "20px",
               }}

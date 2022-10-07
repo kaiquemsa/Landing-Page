@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Footage = styled.footer`
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color: #f9f4f5;
     color: #000;

@@ -12,6 +12,7 @@ export const Container = styled.button`
   height: 120px;
   margin-top: 25px;
   transition: all 0.5s ease-out;
+  cursor: context-menu;
   
   &:hover {
     position: relative;
@@ -21,6 +22,7 @@ export const Container = styled.button`
     h6{
     font-size: 24px;
     color: #000;
+    cursor: context-menu;
     }
   }
 `;

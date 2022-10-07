@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { AiOutlinePhone } from "react-icons/ai";
 
-const Footer: React.FC = () => {
+const Footer2: React.FC = () => {
   return (
     <Footage>
       <Adress>
@@ -32,4 +32,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export { Footer };
+export { Footer2 };

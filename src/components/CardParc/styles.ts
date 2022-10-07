@@ -16,12 +16,14 @@ export const Container = styled.button`
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  cursor: context-menu;
   
   &:hover {
     position: relative;
     top: -5px;
     box-shadow: 2px 2px #000;
     color: #000;
+    cursor: context-menu;
     h6{
     font-size: 24px;
     color: #000;

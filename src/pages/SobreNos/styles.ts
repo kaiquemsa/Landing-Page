@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
   h1{
     color: #d32034;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     max-width: 1000px;
     margin-top: 20px;
@@ -47,7 +47,7 @@ export const BoxNew = styled.div`
   h1{
     margin-top: 120px;
     color: #fff;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     max-width: 1000px;
   }
@@ -63,10 +63,10 @@ export const BoxNew = styled.div`
 
 export const BoxInter = styled.div `
   position: absolute;
-  top: -32px;
-  left: 50px;
-  width: 500px;
-  height: 400px;
+  top: -50px;
+  left: 160px;
+  width: 480px;
+  height: 350px;
   background-color: #D32639;
   border-radius: 20px;
   text-align: justify;
@@ -74,13 +74,13 @@ export const BoxInter = styled.div `
   margin-top: 100px;
   h1 {
     color: #f2f4f3;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: bold;
     margin: 25px;
   }
   h6 {
     color: #f2f4f3;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     margin: 25px;
   }

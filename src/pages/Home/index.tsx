@@ -28,8 +28,9 @@ import HeaderImage from "../../assets/header-image.png";
 import AEAS from "../../assets/AEAS.png";
 import MatoVerde from "../../assets/MatoVerde.png";
 import Man from "../../assets/manCp.png";
-import CEETIMAV from "../../assets/CEETIMAV.png";
-import SEDITUR from "../../assets/SEDITUR.png";
+import CEETIMAV from "../../assets/CEETIMAV-removebg-preview.png";
+import SEDITUR from "../../assets/SEDITUR-removebg-preview.png";
+import { useNavigate } from "react-router-dom";
 
 const Home: React.FC = () => {
   const [activyColor, setActivyColor] = useState(false);
@@ -44,6 +45,8 @@ const Home: React.FC = () => {
     }
     window.addEventListener("scroll", posicionScroll);
   }, []);
+
+  const navigation = useNavigate();
 
   return (
     <>
@@ -140,10 +143,10 @@ const Home: React.FC = () => {
               <h6>15+ Escolas</h6>
             </CardHome>
             <CardHome>
-              <h6>15+ Escolas</h6>
+              <h6>1000+ Alunos</h6>
             </CardHome>
             <CardHome>
-              <h6>15+ Escolas</h6>
+              <h6>10+ Projetos</h6>
             </CardHome>
           </CardContainer>
         </BoxNew>
@@ -203,13 +206,10 @@ const Home: React.FC = () => {
                   target="_blank"
                 >
                   {" "}
-                  desenvolvimentoeconomico.sorocaba.sp.gov.br
+                  desenvolvimentoeconomico.gov.br
                 </a>
               </TitleContainer>
-              <img
-                src={SEDITUR}
-                style={{ width: 95, height: 128, padding: "2px" }}
-              />
+              <img src={SEDITUR} style={{ width: 100, height: 128 }} />
             </CardParc>
           </ParcContainer>
         </BoxNew3>
