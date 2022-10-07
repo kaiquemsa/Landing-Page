@@ -1,9 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import { BoxInter, BoxNew, Container, ContainerImage } from "./styles";
+import {
+  BoxInter,
+  BoxNew,
+  Container,
+  ContainerImage,
+  ContainerImage2,
+} from "./styles";
 
 import Sobrenos from "../../assets/Sobrenos.png";
+
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+
+import image1 from "../../assets/GIBI .png";
+import image2 from "../../assets/APRESENTAÇÃO PERSONAGENS 1 .pdf (1).png";
+import image3 from "../../assets/APRESENTAÇÃO PERSONAGENS 2.png";
+import image4 from "../../assets/APRESENTAÇÃO PERSONAGENS 3.png";
 
 const Sobre: React.FC = () => {
   const [activyColor, setActivyColor] = useState(false);
@@ -50,6 +64,15 @@ const Sobre: React.FC = () => {
             </BoxInter>
           </ContainerImage>
         </BoxNew>
+        <h1>Um pouco sobre nosso Gibi </h1>
+        <ContainerImage2>
+          <AliceCarousel autoPlay autoPlayInterval={1500} infinite>
+            <img src={image1} style={{ width: 700 }} className="sliderimg" />
+            <img src={image2} style={{ width: 700 }} className="sliderimg" />
+            <img src={image3} style={{ width: 700 }} className="sliderimg" />
+            <img src={image4} style={{ width: 700 }} className="sliderimg" />
+          </AliceCarousel>
+        </ContainerImage2>
         <h1>Objetivo e Meta</h1>
         <li>
           <b>Objetivo:</b> Capacitar o corpo docente e adaptá-los as tendências
@@ -68,3 +91,9 @@ const Sobre: React.FC = () => {
 };
 
 export { Sobre };
+function remToPix(itemMaxWidthRem: any) {
+  throw new Error("Function not implemented.");
+}
+function i(value: number, index: number, array: number[]): unknown {
+  throw new Error("Function not implemented.");
+}

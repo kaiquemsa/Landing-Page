@@ -96,3 +96,19 @@ export const ContainerImage = styled.div`
   max-width: 1100px;
 
 `;
+export const ContainerImage2 = styled.div` 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  width: 1100px;
+  max-width: 1100px;
+  .sliderimg{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+  }
+
+`;
