@@ -19,7 +19,7 @@ const Inclusao: React.FC = () => {
   }, []);
   return (
     <>
-      <Header action={activyColor} />
+      <Header action={activyColor} page="inclusao" />
       <Container>
         <BoxNew>
           <ContainerImage>

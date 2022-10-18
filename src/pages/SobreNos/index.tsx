@@ -35,7 +35,7 @@ const Sobre: React.FC = () => {
 
   return (
     <>
-      <Header action={activyColor} />
+      <Header action={activyColor} page="sobrenos" />
       <Container>
         <BoxNew>
           <ContainerImage>

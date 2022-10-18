@@ -1,28 +1,42 @@
-import * as K from "./styles";
+import { MenuList } from "./styles";
+import { MenuOptions } from "../MenuOptions";
 
-import { useNavigate } from "react-router-dom";
+export type MenuPage =
+  | "inicio"
+  | "solucoes"
+  | "inclusao"
+  | "sobrenos"
+  | "contato";
 
-const Menu: React.FC = () => {
-  const navigation = useNavigate();
+interface MenuProps {
+  page: MenuPage;
+}
 
+const Menu: React.FC<MenuProps> = ({ page }) => {
   return (
-    <K.MenuList>
-      <K.ItemList>
-        <a onClick={() => navigation("/")}>Início</a>
-      </K.ItemList>
-      <K.ItemList>
-        <a onClick={() => navigation("/solucoes")}>Soluções</a>
-      </K.ItemList>
-      <K.ItemList>
-        <a onClick={() => navigation("/inclusao")}>Inclusão</a>
-      </K.ItemList>
-      <K.ItemList>
-        <a onClick={() => navigation("/sobrenos")}>Sobre nós</a>
-      </K.ItemList>
-      <K.ItemList>
-        <a onClick={() => navigation("/contato")}>Contato</a>
-      </K.ItemList>
-    </K.MenuList>
+    <MenuList>
+      <MenuOptions label="Início" path="/" selected={page === "inicio"} />
+      <MenuOptions
+        label="Soluções"
+        path="/solucoes"
+        selected={page === "solucoes"}
+      />
+      <MenuOptions
+        label="Inclusão"
+        path="/inclusao"
+        selected={page === "inclusao"}
+      />
+      <MenuOptions
+        label="Sobre nós"
+        path="/sobrenos"
+        selected={page === "sobrenos"}
+      />
+      <MenuOptions
+        label="Contato"
+        path="/contato"
+        selected={page === "contato"}
+      />
+    </MenuList>
   );
 };
 

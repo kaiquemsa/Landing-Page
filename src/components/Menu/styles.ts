@@ -25,8 +25,12 @@ export const ItemList = styled.li`
             cursor: pointer;
         }
     }
-
+    
     a {
         color: #1E255E;
     }
+    .selected {
+        color: #D32034;
+    }
+
 `;

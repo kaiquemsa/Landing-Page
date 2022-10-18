@@ -20,7 +20,7 @@ const Solucoes: React.FC = () => {
   }, []);
   return (
     <>
-      <Header action={activyColor} />
+      <Header action={activyColor} page="solucoes" />
       <Container>
         <BoxNew>
           <ContainerImage>

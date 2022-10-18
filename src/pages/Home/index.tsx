@@ -51,7 +51,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Container>
-        <Header action={activyColor} />
+        <Header action={activyColor} page="inicio" />
         <Main>
           <div>
             <h1>Olá! Bem-vindo a SamEdu.</h1>

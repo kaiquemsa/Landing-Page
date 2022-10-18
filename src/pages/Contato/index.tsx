@@ -19,7 +19,7 @@ const Contato: React.FC = () => {
   }, []);
   return (
     <>
-      <Header action={activyColor} />
+      <Header action={activyColor} page="contato" />
       <Container>
         <BoxNew>
           <ContainerImage>
