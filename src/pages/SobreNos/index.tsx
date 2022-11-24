@@ -7,6 +7,7 @@ import {
   Container,
   ContainerImage,
   ContainerImage2,
+  ContainerSecond,
 } from "./styles";
 
 import Sobrenos from "../../assets/Sobrenos.png";
@@ -57,24 +58,26 @@ const Sobre: React.FC = () => {
           </ContainerImage>
         </BoxNew>
         <h1>Um pouco sobre nosso Gibi </h1>
-        <ContainerImage2>
-          <AliceCarousel autoPlay autoPlayInterval={1500} infinite>
-            <img src={image1} style={{ width: 700 }} className="sliderimg" />
-            <img src={image2} style={{ width: 700 }} className="sliderimg" />
-            <img src={image3} style={{ width: 700 }} className="sliderimg" />
-            <img src={image4} style={{ width: 700 }} className="sliderimg" />
-          </AliceCarousel>
-        </ContainerImage2>
-        <h1>Objetivo e Meta</h1>
-        <li>
-          <b>Objetivo:</b> Capacitar o corpo docente e adaptá-los as tendências
-          da educação do Séc. XXI através da inserção da Robótica, com o apoio
-          de tecnologias Disruptivas.
-        </li>
-        <li>
-          <b>Meta:</b> Dominar o mercado nacional e inter- nacional através da
-          tecnologia e educação.
-        </li>
+        <ContainerSecond>
+          <ContainerImage2>
+            <AliceCarousel autoPlay autoPlayInterval={1500} infinite>
+              <img src={image1} className="sliderimg" />
+              <img src={image2} className="sliderimg" />
+              <img src={image3} className="sliderimg" />
+              <img src={image4} className="sliderimg" />
+            </AliceCarousel>
+          </ContainerImage2>
+          <h1>Objetivo e Meta</h1>
+          <li>
+            <b>Objetivo:</b> Capacitar o corpo docente e adaptá-los as
+            tendências da educação do Séc. XXI através da inserção da Robótica,
+            com o apoio de tecnologias Disruptivas.
+          </li>
+          <li>
+            <b>Meta:</b> Dominar o mercado nacional e inter- nacional através da
+            tecnologia e educação.
+          </li>
+        </ContainerSecond>
         <br />
         <Footer />
       </Container>
