@@ -40,4 +40,8 @@ export const Container = styled.button`
     border-radius: 4px;
     background-color: #D32034;
     }
+
+    @media (max-width: 768px){
+        display: none;
+    }
 `;

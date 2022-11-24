@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <Footage>
       <Adress>
-        <img src={Logo} style={{ width: 80, height: 60 }} />
+        <img src={Logo} style={{ width: 65, height: 45 }} />
       </Adress>
       <Adress>
         <a href="https://www.instagram.com/samedu.br/" target="_blank">

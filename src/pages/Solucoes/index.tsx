@@ -1,9 +1,8 @@
 import { Header } from "../../components/Header";
 import { useEffect, useState } from "react";
-import { BoxInter, BoxNew, Container, ContainerImage } from "./styles";
+import { BoxInter, Container, ContainerImage } from "./styles";
 import Building from "../../assets/Building.png";
-import { Footer2 } from "../../components/Footer2";
-import { Box } from "../../components/Header/styles";
+import { Footer } from "../../components/Footer";
 
 const Solucoes: React.FC = () => {
   const [activyColor, setActivyColor] = useState(false);
@@ -22,31 +21,20 @@ const Solucoes: React.FC = () => {
     <>
       <Header action={activyColor} page="solucoes" />
       <Container>
-        <BoxNew>
-          <ContainerImage>
-            <BoxInter>
-              <h1>Em construção...</h1>
-              <h6>
-                Nosso site está em construção, mas estamos prontos para começar!
-                <br />
-                Estamos preparando algo incrivel e emocionante para você.
-                Surpresa especial para nossos visitantes.
-              </h6>
-            </BoxInter>
-            <img
-              src={Building}
-              style={{
-                width: 400,
-                height: 400,
-                margin: "20px",
-                marginTop: "120px",
-                borderRadius: "20px",
-              }}
-            />
-          </ContainerImage>
-        </BoxNew>
+        <ContainerImage>
+          <BoxInter>
+            <h1>Em construção...</h1>
+            <h6>
+              Nosso site está em construção, mas estamos prontos para começar!
+              <br />
+              Estamos preparando algo incrivel e emocionante para você. Surpresa
+              especial para nossos visitantes.
+            </h6>
+          </BoxInter>
+          <img src={Building} />
+        </ContainerImage>
       </Container>
-      <Footer2 />
+      <Footer />
     </>
   );
 };

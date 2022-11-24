@@ -68,7 +68,8 @@ export const Main = styled.main`
     font-weight: normal;
     margin-top: 25px;
     text-align: center;
-    padding-right: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
  }

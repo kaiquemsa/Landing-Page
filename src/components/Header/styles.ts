@@ -13,15 +13,33 @@ export const Box = styled.header`
     box-shadow: 0 4px 6px 0 rgba(0,0,0,.4);
     transition: all 0.5s ease-out;
 
-    border: 1px solid #000;
-
     &.activyColor {
         background-color: #D32034;
         opacity: 0.7;
         box-shadow: 0;
         img{
-            width: 80px;
+            width: 70px;
             height: 50px;
         }
+    }
+
+    @media (max-width: 768px){
+        width: 100%;
+        padding: 5px 20px;
+
+        img {
+            width: 50px;
+            height: 30px;
+        }
+
+        &.activyColor {
+        background-color: #D32034;
+        opacity: 0.7;
+        box-shadow: 0;
+        img{
+            width: 40px;
+            height: 25px;
+        }
+    }
     }
 `;

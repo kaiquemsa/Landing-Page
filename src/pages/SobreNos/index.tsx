@@ -39,15 +39,6 @@ const Sobre: React.FC = () => {
       <Container>
         <BoxNew>
           <ContainerImage>
-            <img
-              src={Sobrenos}
-              style={{
-                width: 600,
-                height: 400,
-                margin: "20px",
-                borderRadius: "20px",
-              }}
-            />
             <BoxInter>
               <h1>Nossa historia!</h1>
               <h6>
@@ -62,6 +53,7 @@ const Sobre: React.FC = () => {
                 o respeito ao meio ambiente.
               </h6>
             </BoxInter>
+            <img src={Sobrenos} />
           </ContainerImage>
         </BoxNew>
         <h1>Um pouco sobre nosso Gibi </h1>

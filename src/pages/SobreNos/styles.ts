@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  margin: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -16,21 +15,18 @@ export const Container = styled.div`
     color: #d32034;
     font-size: 38px;
     font-weight: 700;
-    max-width: 1000px;
     margin-top: 20px;
   }
   h6{
     padding-top: 10px;
     font-size: 24px;
     font-weight: 500;
-    max-width: 1000px;
   }
   li {
     color: rgba(30, 37, 94, 0.7);
     font-size: 18px;
     font-weight: normal;
     text-align: start;
-    max-width: 60%;
     margin-bottom: 20px;
     margin-top: 20px;
   }
@@ -43,34 +39,34 @@ export const BoxNew = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
   h1{
     margin-top: 120px;
     color: #fff;
     font-size: 38px;
     font-weight: 700;
-    max-width: 1000px;
   }
   h6{
     padding-top: 10px;
     font-size: 24px;
     font-weight: 500;
-    max-width: 1000px;
     color: #fff;
     margin-bottom: 20px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;	
 
 export const BoxInter = styled.div `
-  position: absolute;
-  top: -50px;
-  left: 160px;
   width: 480px;
   height: 350px;
   background-color: #D32639;
   border-radius: 20px;
   text-align: justify;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 6px 6px 0 rgba(45,39,44,1);
+  margin-bottom: 50px;
   margin-top: 100px;
   h1 {
     color: #f2f4f3;
@@ -84,31 +80,68 @@ export const BoxInter = styled.div `
     font-weight: normal;
     margin: 25px;
   }
+
+  @media (max-width: 768px) {
+    width: 320px;
+    height: 300px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+    h1 {
+    color: #f2f4f3;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 16px;
+    margin: 0px;
+  }
+    h6 {
+      color: #f2f4f3;
+      font-size: 12px;
+      font-weight: normal;
+      padding: 12px;
+      margin: 0px;
+  }
+  }
   
 `;
 
 export const ContainerImage = styled.div` 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  position: relative;
-  width: 1100px;
-  max-width: 1100px;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+
+  img {
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    gap: 0px;
+    flex-wrap: wrap;
+
+    img {
+      width: 300px;
+      height: 250px;
+    }
+  }
 
 `;
 export const ContainerImage2 = styled.div` 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  position: relative;
-  width: 1100px;
-  max-width: 1100px;
+  justify-content: center;
+  width: 50%;
   .sliderimg{
     width: 100%;
     height: 500px;
     object-fit: contain;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
 `;

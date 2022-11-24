@@ -19,12 +19,13 @@ export const Footage = styled.footer`
 
 export const Adress = styled.div`
     width:310px;
-    height:80px;
+    height:60px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: start;
     box-shadow: 0;
+
     h1 {
         font-weight: 500;
         font-size: 8px;
@@ -35,11 +36,11 @@ export const Adress = styled.div`
    
     @media (max-width: 768px) {
         flex-wrap: wrap;
+        height: 100%;
     a {
-        padding-left:10px;
+        padding-left:12px;
         font-size: 12px;
     }
-
 }
 
 `;

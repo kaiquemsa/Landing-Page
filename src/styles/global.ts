@@ -10,7 +10,6 @@ const globalStyle = createGlobalStyle`
     html, body, #root {
         height: 100%;        
         position: relative;
-        padding-bottom: 100px;
     }
 
     body {

@@ -20,5 +20,10 @@ export const Container = styled.li`
         }
     }
 
+    @media (max-width: 768px) {
+        font-size: 12px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
 
 `;

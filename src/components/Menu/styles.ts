@@ -10,27 +10,13 @@ export const MenuList = styled.ul`
     background-color: #f9f4f5;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     border-radius: 50px;
-    height: 60px;
-`;
-export const ItemList = styled.li`
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 10px;
-    font-weight: 500;
-    transition: color 0.25s ease;
+    height: 50px;
 
-    &:hover {
-        a {
-            color: #D32034;
-            cursor: pointer;
-        }
+    @media (max-width: 768px) {
+        margin-left: 20px;
+        width: 300px; 
     }
     
-    a {
-        color: #1E255E;
-    }
-    .selected {
-        color: #D32034;
-    }
-
 `;
+
+
