@@ -13,7 +13,7 @@ interface IHeaderProps {
 const Header: React.FC<IHeaderProps> = ({ action, page }) => {
   return (
     <Box className={action ? "activyColor" : ""}>
-      <img src={LogoHero} alt="Logo Hero Header" width={123.83} height={80} />
+      <img src={LogoHero} alt="Logo Hero Header" width={100} height={60} />
       <Menu page={page} />
       <Button />
     </Box>

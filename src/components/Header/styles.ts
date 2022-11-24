@@ -4,6 +4,7 @@ export const Box = styled.header`
     display: flex;
     padding: 10px 40px;
     width: 100%;
+    height: 80px;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -11,6 +12,8 @@ export const Box = styled.header`
     z-index: 1;
     box-shadow: 0 4px 6px 0 rgba(0,0,0,.4);
     transition: all 0.5s ease-out;
+
+    border: 1px solid #000;
 
     &.activyColor {
         background-color: #D32034;

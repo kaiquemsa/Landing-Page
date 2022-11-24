@@ -78,7 +78,6 @@ const Home: React.FC = () => {
             </BoxInter>
           </ContainerImage>
         </BoxNew>
-
         <BoxNew2>
           <h1>Impacto e resultados nas escolas!</h1>
           <h6>
@@ -204,7 +203,7 @@ const Home: React.FC = () => {
                   target="_blank"
                 >
                   {" "}
-                  desenvolvimentoeconomico.gov.br
+                  deveconomic
                 </a>
               </TitleContainer>
               <img src={SEDITUR} style={{ width: 100, height: 128 }} />
