@@ -10,6 +10,12 @@ export const Container = styled.div`
 
   main {
     flex: 1;
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+ }
+
   }
 `;
 
@@ -21,7 +27,7 @@ export const Main = styled.main`
   align-items: center;
   max-width: 1000px;
 
-  > div {
+   div {
     width: 50%;
   }
 
@@ -38,14 +44,55 @@ export const Main = styled.main`
     padding-right: 150px;
     margin-top: 25px;
   }
+
+  @media (max-width: 768px) {
+      display: flex;
+   text-align: center;
+
+   div {
+    width: 100%;
+   }
+
+   h1 {
+    color: #d32034;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+
+  }
+
+  h6 {
+    color: rgba(30, 37, 94, 0.7);
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 25px;
+    text-align: center;
+    padding-right: 0px;
+  }
+
+ }
+
 `;
 
 export const ColumnImage = styled.div`
+
   text-align: right;
   position: relative;
   img {
     margin-left: 104px;
   }
+
+  @media (max-width: 768px) {
+      text-align: center;
+
+      img {
+    margin-left: 0px;
+    width: 300px;
+  }
+
+ }
+
 `;
 
 export const BoxNew = styled.div`
@@ -72,9 +119,17 @@ export const BoxNew = styled.div`
     font-size: 16px;
     font-weight: normal;
   }
-`;	
+  @media (max-width: 768px) {
+   img{
+    width: 300px;
+   }
+   text-align: center;
+ }
+`;
 
-export const BoxInter = styled.div `
+
+
+export const BoxInter = styled.div`
   position: absolute;
   top: 50px;
   left: 0px;
@@ -96,7 +151,26 @@ export const BoxInter = styled.div `
     font-weight: normal;
     margin: 25px;
   }
-  
+  @media (max-width: 768px) {
+    position: static;
+    margin-top: 10px;
+    width: 380px;
+    height: 340px;
+
+    h1{
+      font-size: 22px;
+    }
+
+    h6{
+      font-size: 18px;
+    }
+    
+    box-shadow: none;
+
+
+  }
+
+
 `;
 
 export const BoxNew2 = styled.div`
@@ -114,7 +188,14 @@ export const BoxNew2 = styled.div`
     font-weight: normal;
     margin: 25px;
   }
-`;	
+  @media (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+`;
 export const BoxNew3 = styled.div`
   width: 1100px;
   text-align: start;
@@ -129,9 +210,16 @@ export const BoxNew3 = styled.div`
     font-weight: normal;
     margin: 25px;
   }
-`;	
 
-export const CircleProgress = styled.div `
+  @media (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const CircleProgress = styled.div`
   width: 200px; 
   text-align: center;
   h6 {
@@ -142,15 +230,20 @@ export const CircleProgress = styled.div `
   }
 `;
 
-export const CircleContainer = styled.div `
+export const CircleContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin-bottom: 16px;
   max-width: 1000px;
+    @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
-export const CardContainer = styled.div `
+export const CardContainer = styled.div`
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -163,6 +256,11 @@ export const CardContainer = styled.div `
     font-size: 24px;
     color: #d32034;
   }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const ContainerImage = styled.div` 
@@ -172,6 +270,13 @@ export const ContainerImage = styled.div`
   position: relative;
   width: 1100px;
   max-width: 1100px;
+
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    width: 100%;
+
+  }
 `;
 
 export const ParcContainer = styled.div`
@@ -183,9 +288,13 @@ export const ParcContainer = styled.div`
   margin-right: 12%;
   margin-bottom: 20px;
   max-width: 1000px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
-export const TitleContainer = styled.div `
+export const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -203,6 +312,13 @@ export const TitleContainer = styled.div `
     text-align: justify;
     max-width: 100px;
   }
+
+  @media (max-width: 768px) {
+    a {
+
+    }
+  }
+
 `;
 
 export const ImgAEAS = styled.img`

@@ -78,6 +78,7 @@ const Home: React.FC = () => {
             </BoxInter>
           </ContainerImage>
         </BoxNew>
+
         <BoxNew2>
           <h1>Impacto e resultados nas escolas!</h1>
           <h6>

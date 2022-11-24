@@ -29,4 +29,9 @@ export const Container = styled.button`
     color: #000;
     }
   }
+
+  @media (max-width: 768px) {
+    width: 300px;
+  }
+
 `;

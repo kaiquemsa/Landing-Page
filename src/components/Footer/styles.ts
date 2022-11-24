@@ -12,9 +12,12 @@ export const Footage = styled.footer`
     h6{
         font-size: 16px;
     }
+
+    @media (max-width: 768px) {
+    height: 100px;}
 `;
 
-export const Adress = styled.div `
+export const Adress = styled.div`
     width:310px;
     height:80px;
     padding: 10px;
@@ -29,5 +32,14 @@ export const Adress = styled.div `
     a{
       padding-left: 50px;
     }
-    
+   
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    a {
+        padding-left:10px;
+        font-size: 12px;
+    }
+
+}
+
 `;

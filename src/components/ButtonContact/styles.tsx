@@ -16,4 +16,13 @@ export const Container = styled.button`
     background-color: #f8fdff;
     color: #d32034;
   }
+
+
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  
 `;
