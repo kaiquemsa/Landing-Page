@@ -3,6 +3,7 @@ import { BoxInter, BoxNew, Container, ContainerImage } from "./styles";
 import { useEffect, useState } from "react";
 import Building from "../../assets/Building.png";
 import { Footer2 } from "../../components/Footer2";
+import { useForm } from "react-hook-form";
 
 const Contato: React.FC = () => {
   const [activyColor, setActivyColor] = useState(false);
@@ -17,6 +18,11 @@ const Contato: React.FC = () => {
     }
     window.addEventListener("scroll", posicionScroll);
   }, []);
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <>
       <Header action={activyColor} page="contato" />
@@ -44,6 +50,30 @@ const Contato: React.FC = () => {
             />
           </ContainerImage>
         </BoxNew>
+        {/* <h1>Fale conosco</h1>
+        <form onSubmit={() => {}}>
+          <input
+            type="text"
+            placeholder="Digite seu nome"
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+          />
+
+          <input
+            type="text"
+            placeholder="Digite seu email"
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+          />
+
+          <textarea
+            placeholder="Digite sua mensagem..."
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}
+          />
+
+          <button type="submit">Cadastrar-se</button>
+        </form> */}
       </Container>
       <Footer2 />
     </>

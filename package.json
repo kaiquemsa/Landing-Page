@@ -1,5 +1,6 @@
 {
   "name": "front_end",
+  "homepage": "https://samedu.com.br/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +15,7 @@
     "react-alice-carousel": "^2.6.4",
     "react-circle": "^1.1.1",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.38.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.1",
     "styled-components": "^5.3.5"

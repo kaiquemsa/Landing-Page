@@ -30,7 +30,6 @@ import MatoVerde from "../../assets/MatoVerde.png";
 import Man from "../../assets/manCp.png";
 import CEETIMAV from "../../assets/CEETIMAV-removebg-preview.png";
 import SEDITUR from "../../assets/SEDITUR-removebg-preview.png";
-import { useNavigate } from "react-router-dom";
 
 const Home: React.FC = () => {
   const [activyColor, setActivyColor] = useState(false);
@@ -45,8 +44,6 @@ const Home: React.FC = () => {
     }
     window.addEventListener("scroll", posicionScroll);
   }, []);
-
-  const navigation = useNavigate();
 
   return (
     <>

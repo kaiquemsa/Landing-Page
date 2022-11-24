@@ -10,27 +10,34 @@ export const Container = styled.div`
   text-align: justify;
   flex:1;
   background-color: #7b2cbf;
-  h1{
-    color: #d32034;
-    font-size: 48px;
-    font-weight: 700;
-    max-width: 1000px;
-    margin-top: 20px;
+  form {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
-  h6{
-    padding-top: 10px;
-    font-size: 24px;
-    font-weight: 500;
-    max-width: 1000px;
+  label 
+  {
+    display: flex;
+    flex-direction: column;
+    font-weight:normal;
+    color: #fff;
+    font-size: 20px;
   }
-  li {
-    color: rgba(30, 37, 94, 0.7);
-    font-size: 18px;
-    font-weight: normal;
-    text-align: start;
-    max-width: 60%;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  input {
+    border-radius: 5px;
+    border: 1px solid #D32639;
+    width: 200px;
+  }
+  button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
   }
 `;
 
