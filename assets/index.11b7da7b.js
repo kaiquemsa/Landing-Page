@@ -1025,7 +1025,7 @@ Error generating stack: `+o.message+`
     }
   }
 
-`,ly=()=>{const[e,t]=F.exports.useState(!1);return F.exports.useEffect(function(){function n(){window.scrollY>10?t(!0):t(!1)}window.addEventListener("scroll",n)},[]),H(on,{children:[I(ti,{action:e,page:"solucoes"}),I(ry,{children:H(oy,{children:[H(iy,{children:[I("h1",{children:"Em constru\xE7\xE3o..."}),H("h6",{children:["Nosso site est\xE1 em constru\xE7\xE3o, mas estamos prontos para come\xE7ar!",I("br",{}),"Estamos preparando algo incrivel e emocionante para voc\xEA. Surpresa especial para nossos visitantes."]})]}),I("img",{src:tu})]})}),I(ni,{})]})},ay=()=>I(x0,{children:H(g0,{children:[I(_n,{element:I(l1,{}),path:"/"}),I(_n,{element:I(ly,{}),path:"/Solucoes"}),I(_n,{element:I(ny,{}),path:"/Sobrenos"}),I(_n,{element:I(c1,{}),path:"/Inclusao"}),I(_n,{element:I(Mv,{}),path:"/Contato"})]})}),sy=gv`
+`,ly=()=>{const[e,t]=F.exports.useState(!1);return F.exports.useEffect(function(){function n(){window.scrollY>10?t(!0):t(!1)}window.addEventListener("scroll",n)},[]),H(on,{children:[I(ti,{action:e,page:"solucoes"}),I(ry,{children:H(oy,{children:[H(iy,{children:[I("h1",{children:"Em constru\xE7\xE3o..."}),H("h6",{children:["Nosso site est\xE1 em constru\xE7\xE3o, mas estamos prontos para come\xE7ar!",I("br",{}),"Estamos preparando algo incrivel e emocionante para voc\xEA. Surpresa especial para nossos visitantes."]})]}),I("img",{src:tu})]})}),I(ni,{})]})},ay=()=>I(x0,{basename:"/Landing-Page/",children:H(g0,{children:[I(_n,{element:I(l1,{}),path:"/"}),I(_n,{element:I(ly,{}),path:"/Solucoes"}),I(_n,{element:I(ny,{}),path:"/Sobrenos"}),I(_n,{element:I(c1,{}),path:"/Inclusao"}),I(_n,{element:I(Mv,{}),path:"/Contato"})]})}),sy=gv`
     * {
         padding: 0;
         margin: 0;
