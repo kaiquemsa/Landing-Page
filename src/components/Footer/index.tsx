@@ -13,16 +13,16 @@ const Footer: React.FC = () => {
       <Adress>
         <a href="https://www.instagram.com/samedu.br/" target="_blank">
           {" "}
-          <FaInstagram style={{ width: 30, height: 30, color: "#D32639" }} />
+          <FaInstagram style={{ width: 30, height: 30, color: "#1f303f" }} />
         </a>
         <a href="contato@samedu.com.br" target="_blank">
-          <MdEmail style={{ width: 30, height: 30, color: "D32639" }} />
+          <MdEmail style={{ width: 30, height: 30, color: "1f303f" }} />
         </a>
         <a href="+55 15 98177-4493" target="_blank">
-          <AiOutlinePhone style={{ width: 30, height: 30, color: "D32639" }} />
+          <AiOutlinePhone style={{ width: 30, height: 30, color: "1f303f" }} />
         </a>
         <a href="https://www.linkedin.com/" target="_blank">
-          <FaLinkedin style={{ width: 30, height: 30, color: "D32639" }} />
+          <FaLinkedin style={{ width: 30, height: 30, color: "1f303f" }} />
         </a>
       </Adress>
       <Adress>

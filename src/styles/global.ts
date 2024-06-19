@@ -1,15 +1,19 @@
 import { createGlobalStyle } from "styled-components";
 
 const globalStyle = createGlobalStyle`
+@import "@coreui/coreui/scss/coreui";
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
 
-    html, body, #root {
-        height: 100%;        
+    html, body, #root { 
         position: relative;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
     body {

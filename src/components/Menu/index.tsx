@@ -3,9 +3,8 @@ import { MenuOptions } from "../MenuOptions";
 
 export type MenuPage =
   | "inicio"
-  | "solucoes"
-  | "inclusao"
-  | "sobrenos"
+  | "dashboard"
+  | "dashboard-predict"
   | "contato";
 
 interface MenuProps {
@@ -17,19 +16,14 @@ const Menu: React.FC<MenuProps> = ({ page }) => {
     <MenuList>
       <MenuOptions label="Início" path="/" selected={page === "inicio"} />
       <MenuOptions
-        label="Soluções"
-        path="/solucoes"
-        selected={page === "solucoes"}
+        label="Dashboard"
+        path="/dashboard"
+        selected={page === "dashboard"}
       />
       <MenuOptions
-        label="Inclusão"
-        path="/inclusao"
-        selected={page === "inclusao"}
-      />
-      <MenuOptions
-        label="Sobre nós"
-        path="/sobrenos"
-        selected={page === "sobrenos"}
+        label="Dashboard Predict"
+        path="/dashboard-predict"
+        selected={page === "dashboard-predict"}
       />
       <MenuOptions
         label="Contato"

@@ -14,7 +14,7 @@ export const Box = styled.header`
     transition: all 0.5s ease-out;
 
     &.activyColor {
-        background-color: #D32034;
+        background-color: #1f303f;
         opacity: 0.7;
         box-shadow: 0;
         img{
@@ -33,7 +33,7 @@ export const Box = styled.header`
         }
 
         &.activyColor {
-        background-color: #D32034;
+        background-color: #1f303f;
         opacity: 0.7;
         box-shadow: 0;
         img{

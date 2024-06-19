@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-  background-color: #d32034;
-  border: 1px solid #d32034;
+  background-color: #1f303f;
+  border: 1px solid #1f303f;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -14,7 +14,7 @@ export const Container = styled.button`
 
   &:hover {
     background-color: #f8fdff;
-    color: #d32034;
+    color: #1f303f;
   }
 
 

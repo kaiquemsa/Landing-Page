@@ -51,7 +51,7 @@ const Home: React.FC = () => {
         <Header action={activyColor} page="inicio" />
         <Main>
           <div>
-            <h1>Olá! Bem-vindo a SamEdu.</h1>
+            <h1>Olá! Bem-vindo.</h1>
             <h6>
               Somos uma startup jovem e nos propomos a democratizar a educação
               no Brasil através da robótica
@@ -94,8 +94,8 @@ const Home: React.FC = () => {
           <CircleProgress>
             <Circle
               progress={92}
-              progressColor="#D32639"
-              textColor="#D32639"
+              progressColor="#1f303f"
+              textColor="#1f303f"
               size="150px"
               roundedStroke
             />
@@ -104,8 +104,8 @@ const Home: React.FC = () => {
           <CircleProgress>
             <Circle
               progress={97}
-              progressColor="#D32639"
-              textColor="#D32639"
+              progressColor="#1f303f"
+              textColor="#1f303f"
               size="150px"
               roundedStroke
             />
@@ -114,8 +114,8 @@ const Home: React.FC = () => {
           <CircleProgress>
             <Circle
               progress={100}
-              progressColor="#D32639"
-              textColor="#D32639"
+              progressColor="#1f303f"
+              textColor="#1f303f"
               size="150px"
               roundedStroke
             />
@@ -124,8 +124,8 @@ const Home: React.FC = () => {
           <CircleProgress>
             <Circle
               progress={100}
-              progressColor="#D32639"
-              textColor="#D32639"
+              progressColor="#1f303f"
+              textColor="#1f303f"
               size="150px"
               roundedStroke
             />

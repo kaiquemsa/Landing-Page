@@ -10,11 +10,11 @@ export const Container = styled.li`
     a {
         color: #1E255E;
         &[data-selected="true"] {
-            color: #D32034;
+            color: #d32034;
             
         }
         &:hover {
-            color: #D32034;
+            color: #d32034;
             opacity: 0.7;
             cursor: pointer;
         }

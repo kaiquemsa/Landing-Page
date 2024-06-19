@@ -3,7 +3,7 @@ import { Button } from "../../components/Button";
 
 import { Box } from "./styles";
 
-import LogoHero from "../../assets/LOGO-SAMEDU-A-02.png";
+import LogoHero from "../../assets/logo.png";
 
 interface IHeaderProps {
   action: boolean;
@@ -13,7 +13,7 @@ interface IHeaderProps {
 const Header: React.FC<IHeaderProps> = ({ action, page }) => {
   return (
     <Box className={action ? "activyColor" : ""}>
-      <img src={LogoHero} alt="Logo Hero Header" width={90} height={60} />
+      <img src={LogoHero} alt="Logo Hero Header" width={80} height={80} />
       <Menu page={page} />
       <Button />
     </Box>
